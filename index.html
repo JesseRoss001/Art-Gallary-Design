@@ -21,20 +21,21 @@
                 <!-- Company Name -->
                 <div class="col-6 col-md-4  text-center ">
                     <h1 class=" main-header ">Opus Art Luxe</h1>
+                    <hr>
                     <h2 class="sub-header" >Est. 1904</h2>
                 </div>
                 <!-- Contact Info -->
                 <div class="col-6 col-md-4  text-center">
-                    <p class=" motto">Master Artists' Gala</p>
+                
                     <div class="dropdown">
-                        <button class="dropbtn">Dropdown</button>
+                        <button class="dropbtn " id="dropdown-button"><p class=" motto">Master Artists' Gala</p></button>
                         <div class="dropdown-content">
-                          <a href="#">Link 1</a>
-                          <a href="#">Link 2</a>
-                          <a href="#">Link 3</a>
+                          <a href="index.html">Home</a>
+                          <a href="artists.html">Artists</a>
+                          <a href="enquires.html">Enquires</a>
                         </div>
                       </div>
-                
+                    </div>
 
                 
                 </div>
@@ -58,6 +59,17 @@ Home , Artists , Enquiry Form and Gallery Info  -->
                    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
                    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+                   <script>
+                    $(document).ready(function(){
+                        // Get the width of the button
+    // Get the width of the dropdown menu
+    var menuWidth = $(".dropdown-content").outerWidth();
+    
+    // Set the button width to match the menu width
+    $("#dropdown-button").outerWidth(menuWidth);
+                    });
+                    </script>
+
+                </body>
 
 </html>
