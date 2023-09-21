@@ -327,3 +327,38 @@ div a  i {color: #374254; font-size: 25px;
     letter-spacing: 3px;}
 
 .fa-facebook {margin-left:40px;}
+
+
+
+@media (min-width:375px) {
+.fa-facebook {padding-left:30px;}
+
+    
+}
+
+
+@media (min-width:425px) {
+    .fa-facebook {padding-left:48px;}
+    
+        
+    }
+
+
+
+    @media (min-width:767px) {
+        .fa-facebook {padding:0;
+        margine:0;}
+        div a  i  {letter-spacing: 2px;
+        margin:0;
+    padding:0;
+font-size:18px;}
+
+.community-footer-header{text-align: center;
+    padding-left: 10px;
+}
+
+        
+            
+        }
+
+
