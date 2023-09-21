@@ -22,7 +22,8 @@
 
 
 /* Header style */
-.header-wrap {
+.header-wrap {margin-right: 0px;
+    
 }
 
 .main-header,
@@ -172,6 +173,8 @@ h2 {
   .dropdown {opacity: 0.7;
     position: relative;
     display: inline-block;
+    left:0px;
+    right:0px;
   }
   
   /* Dropdown Content (Hidden by Default) */
@@ -187,13 +190,17 @@ h2 {
   
   /* Links inside the dropdown */
   .dropdown-content a {
+    
     color: #fafafa;
     padding: 12px 16px;
+    align-self: left;
+    text-align: center;
     text-decoration: none;
     display: block;
     background:  #dab6b6 99%; /* Initial background */
     transition: background 0.3s ease; /* Add a transition for the background */
   }
+
   
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {background-color: #374254;
@@ -236,8 +243,8 @@ margin-right: 10px;}
     #dropdown-button{
         
         display:relative;
-        height:100px;
-        width:150px;
+        height:177px;
+        width:max-content;
         margin:0px;
         padding:0px;
         justify-self: center;
@@ -258,6 +265,10 @@ margin-right: 10px;}
         font-size: 20px;
         letter-spacing: 4px;
     }
+.header-wrap{margin:0px;
+padding:0px;}
+.motto {font-size: 22px;}
+.dropdown-content a {font-size: 18px;}
 }
 
 /* Large screens (992px and above) */
@@ -272,4 +283,13 @@ margin-right: 10px;}
         letter-spacing: 4px;
 
     }
+.dropdown {height:100%;
+align-items: center;}
+.motto {font-size: 28px;
+padding:0px;} 
+
+#motto-padding {padding:0px;}
+.dropdown-content a {font-size: 24px;}
+#dropdown-button {height:100%;
+padding-top: 0px;}
 }
