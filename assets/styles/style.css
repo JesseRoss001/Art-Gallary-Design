@@ -15,13 +15,14 @@
 
 /*header colors */
 .header-color {
-    background-color: #efefef;
+    background: linear-gradient(to top, #374254,#efefef 1% );
 }
 
 
 
 /* Header style */
-.header-wrap {}
+.header-wrap {
+}
 
 .main-header,
 .motto {
@@ -64,7 +65,7 @@
 
 /* Styling Logo button adapted from GrahamTheDev */
 
-.move-button-down {margin-top:20px;}
+.move-button-down {margin-top:15px;}
 
 button {
     
