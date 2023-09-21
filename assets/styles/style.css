@@ -362,6 +362,60 @@ h2 {
 }
 
 
+
+
+/*styling the main section */
+
+/*Styling the article */
+
+article {
+    padding-bottom: 160px;
+}
+
+.article-heading {
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #dab6b6;
+    letter-spacing: 3px;
+}
+
+#scrolling-paragraph {
+    padding-left: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+    max: height:800px;
+}
+
+.hr-centered {align-self: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* styling the footer */
 
 footer {
@@ -380,7 +434,9 @@ footer {
     letter-spacing: 2px;
 }
 
-.first-layer-badge {width:100|%;}
+.first-layer-badge {
+    width: 100|%;
+}
 
 div a i {
     color: #374254;
@@ -393,15 +449,21 @@ div a i {
     margin-left: 40px;
 }
 
-.designed-by {width:100%;
-    display:flex;
-align-items: center;
-justify-content: center;}
+.designed-by {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-.padding-designed-by {padding-left: 25px;font-size: 20px;  background: -webkit-linear-gradient(#374254, #dab6b6);
+.padding-designed-by {
+    padding-left: 25px;
+    font-size: 20px;
+    background: -webkit-linear-gradient(#374254, #dab6b6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }}
+}
+}
 
 
 
@@ -443,37 +505,46 @@ justify-content: center;}
     }
 
     .move-button-down {
-        padding-left: 30px ;
+        padding-left: 30px;
     }
 
-    .container-outline {
-    }
+    .container-outline {}
 }
 
-    @media (min-width:1023px) {
-        .fa-facebook {
-            margin-left: 40px;
-            margine: 0;
-        }
-    
-.padding-designed-by {margin-left:30px;}
-        div a i {
-            letter-spacing: 2px;
-            align-self: center;
-            font-size: 18px;
-        }
-
-        .fa-facebook {padding-left: 45px;}
-
-        .community-footer-header {
-            text-align: center;
-            padding-left: 10px;
-
-        }
-    #move-footer-button-down {margin-top:20px;
-    padding-left:40px;}
-
-
-footer div > div {height:max;
-width:max;}
+@media (min-width:1023px) {
+    .fa-facebook {
+        margin-left: 40px;
+        margine: 0;
     }
+
+    .padding-designed-by {
+        margin-left: 30px;
+    }
+
+    div a i {
+        letter-spacing: 2px;
+        align-self: center;
+        font-size: 18px;
+    }
+
+    .fa-facebook {
+        padding-left: 45px;
+    }
+
+    .community-footer-header {
+        text-align: center;
+        padding-left: 10px;
+
+    }
+
+    #move-footer-button-down {
+        margin-top: 20px;
+        padding-left: 40px;
+    }
+
+
+    footer div>div {
+        height: max;
+        width: max;
+    }
+}
