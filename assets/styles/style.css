@@ -380,6 +380,8 @@ footer {
     letter-spacing: 2px;
 }
 
+.first-layer-badge {width:100|%;}
+
 div a i {
     color: #374254;
     font-size: 25px;
@@ -390,6 +392,16 @@ div a i {
 .fa-facebook {
     margin-left: 40px;
 }
+
+.designed-by {width:100%;
+    display:flex;
+align-items: center;
+justify-content: center;}
+
+.padding-designed-by {padding-left: 25px;font-size: 20px;  background: -webkit-linear-gradient(#374254, #dab6b6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }}
 
 
 
@@ -433,6 +445,9 @@ div a i {
     .move-button-down {
         padding-left: 30px ;
     }
+
+    .container-outline {
+    }
 }
 
     @media (min-width:1023px) {
@@ -440,20 +455,23 @@ div a i {
             margin-left: 40px;
             margine: 0;
         }
-
+    
+.padding-designed-by {margin-left:30px;}
         div a i {
             letter-spacing: 2px;
             align-self: center;
-            justify-self: center;
             font-size: 18px;
         }
 
+        .fa-facebook {padding-left: 45px;}
+
         .community-footer-header {
             text-align: center;
-            padding-left: 50px;
+            padding-left: 10px;
 
         }
-    .move-footer-button-down {margin-top:20px;}
+    #move-footer-button-down {margin-top:20px;
+    padding-left:40px;}
 
 
 footer div > div {height:max;
