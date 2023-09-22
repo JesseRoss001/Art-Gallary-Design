@@ -19,6 +19,10 @@
     background: linear-gradient(to top, #374254, #efefef 1%);
 }
 
+
+.artist-title-button-color1 {background: linear-gradient(to left, #efefee 90%, #D4AF37 );}
+.artist-title-button-color2 {background: linear-gradient(to left, #efefee 85%, #BCC6CC );}
+.artist-title-button-color3 {background: linear-gradient(to left, #efefee 80%, #a97142 );}
 .footer-color {
     background-color: #efefef;
     border-top: solid 1px #374254
@@ -432,8 +436,14 @@ align-items: center;
 
 border-radius: 30px;}
 
-.artist-column-button-centered {padding-left: 60px;
+.artist-column-button-centered {padding-left: 10%;
+    width:90%;
 padding-bottom: 50px;}
+
+
+.damien-hirst-portrait-image {object-fit: cover;
+    object-position: 25% 25%; 
+    }
 
 
 
