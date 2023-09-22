@@ -20,9 +20,10 @@
 }
 
 
-.artist-title-button-color1 {background: linear-gradient(to left, #efefee 90%, #D4AF37 );}
-.artist-title-button-color2 {background: linear-gradient(to left, #efefee 85%, #BCC6CC );}
-.artist-title-button-color3 {background: linear-gradient(to left, #efefee 80%, #a97142 );}
+#artist-title-button-color1 {background: linear-gradient(to left, #ffffff 90%, #D4AF37 );}
+
+.artist-title-button-color2 {background: linear-gradient(to left, #ffffff 85%, #BCC6CC );}
+.artist-title-button-color3 {background: linear-gradient(to left, #ffffff 80%, #a97142 );}
 .footer-color {
     background-color: #efefef;
     border-top: solid 1px #374254
