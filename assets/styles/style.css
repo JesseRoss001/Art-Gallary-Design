@@ -44,6 +44,16 @@
     background: linear-gradient(to left, #ffffff 50%, #a97142);
 }
 
+
+.artist-title-button-color4 {
+    background: linear-gradient(to left, #ffffff 90%, #dab6b6);
+ }
+
+
+ .artist-title-button-color4:hover {
+    background: linear-gradient(to left, #ffffff 70%, #dab6b6);
+ }
+
 .footer-color {
     background-color: #efefef;
     border-top: solid 1px #374254
