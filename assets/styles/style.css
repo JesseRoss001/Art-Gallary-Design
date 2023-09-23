@@ -101,7 +101,7 @@
 
 }
 
-.button1>img {
+.button1 img {
     border-radius: 50%;
     position: relative;
 
@@ -114,6 +114,7 @@
 
 .move-button-down {
     margin-top: 15px;
+    border-radius: 50%;
 }
 
 .button1 {
@@ -130,6 +131,8 @@
     transition: .3s;
     cursor: pointer;
 }
+
+
 
 .button1:before {
     content: "";
@@ -598,10 +601,7 @@ div a i {
 }
 
 @media (min-width:1023px) {
-    .fa-facebook {
-        margin-left: 40px;
-        margine: 0;
-    }
+
 
     .padding-designed-by {
         margin-left: 30px;
@@ -614,7 +614,7 @@ div a i {
     }
 
     .fa-facebook {
-        padding-left: 45px;
+        padding-left: 42px;
     }
 
     .community-footer-header {
@@ -633,4 +633,12 @@ div a i {
         height: max;
         width: max;
     }
+}
+
+@media (min-width:1440px) {
+    .fa-facebook {padding-left: 110px;}
+    .padding-designed-by {
+        margin-left: 90px;
+    }
+#motto-padding {margin-top: 10px;}
 }
