@@ -1,20 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Art-Gallery</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="#" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="assets/styles/style.css" rel="stylesheet">
 </head>
-<body>
-<header>
-<!-- Gallery Title -->
-<!-- Logo -->
-<!-- Below Drop down  -->
-<!-- Drop down options 
+
+<body style="height:2000px;">
+    <header class="container-fluid header-color header-wrap">
+
+        <div class="row header-row">
+            <div class=" col-12 d-none d-md-block col-md-4  text-center logo-header-column-height">
+                <div class="move-button-down">
+                    <button class="button1" id="button1v2"> <a href="index.html" alt-atribute="home-page-link"><img
+                                src="assets/logo-favicons/Logo.png" alt="Company Logo"
+                                class="logo-header" /></a></button>
+                </div>
+            </div>
+            <!-- Company Name -->
+            <div class="col-6 col-md-4  text-center ">
+                <h1 class=" main-header ">Opus Art Luxe</h1>
+                <hr>
+                <h2 class="sub-header">Est. 1904</h2>
+            </div>
+            <!-- Contact Info -->
+            <div class="col-6 col-md-4  text-center g-0">
+
+                <div class="dropdown">
+                    <button class="dropbtn " id="dropdown-button">
+                        <p class=" motto" id="motto-padding">Master <br> Artists' Gala</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="index.html">Home</a>
+                        <a href="artists.html">Artists</a>
+                        <a href="enquires.html">Enquires</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+
+
+        <!-- Gallery Title -->
+        <!-- Logo -->
+        <!-- Below Drop down  -->
+        <!-- Drop down options 
 Home , Artists , Enquiry Form and Gallery Info  -->
-</header>
+    </header>
 <main>
     <!--List of artists -->
 <section class="container-fluid">
@@ -52,8 +90,227 @@ Home , Artists , Enquiry Form and Gallery Info  -->
    
 </section>
 </main>
-<footer>
+<footer class="container-fluid footer-color  footer-wrap">
+    <div class="row">
+        <div class="d-none  d-md-block col-md-4">
+            <div style="margin-left: 76px;margin-top: 15px;" id="move-footer-button-down">
+                <button class="button1" id="button2"> <a href="index.html" alt-atribute="home-page-link"><img
+                            src="assets/logo-favicons/Logo.png" alt="Company Logo"
+                            class="logo-header" /></a></button>
+            </div>
+        </div>
+        <div class="d-none d-md-block col-4 container-outline desinged-by">
+            <div class="container-fluid  ">
+                <hr>
+                <p class="padding-designed-by"> Designed By
+                    J Ross
+                </p>
+                <hr>
+            </div>
+        </div>
+
+        <div class="col-sm-4 col-md-4">
+            <h5 class=" community-footer-header">Community links </h5>
+            <ul class="list-inline social-links">
+
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <span class="sr-only">Linkedin</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fa fa-pinterest" aria-hidden="true"></i>
+                        <span class="sr-only">Pinterest</span>
+                    </a>
+                </li>
+
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                        <span class="sr-only">Youtube</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
 
 </footer>
+<!-- Include Bootstrap JavaScript and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/11665d5c0d.js" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function () {
+        // Get the width of the button
+        // Get the width of the dropdown menu
+        var menuWidth = $(".dropdown-content").outerWidth();
+
+        // Set the button width to match the menu width
+        $("#dropdown-button").outerWidth(menuWidth);
+    });
+</script>
+
 </body>
+<div class="row-centered g-0 " style="width:100%;">
+    <div class="col-10   offset-md-none col-md-6 col-lg-4 text-align-center artist-column-button-centered">
+        <div class="container-fluid artist-introduction-banner">
+            <button class="artist-title-button artist-title-button-color1">
+                <img class="portrait-images"
+                    src="assets/images/alexkatz/Oliver_Mark_-_Alex_Katz,_Berlin_2006.jpg"
+                    alt="portrait image of alexkatz">
+<div class="d-none d-md-block">
+<p class="artist-advertising-text"> Where Timeless Elegance <br> Meets Modern Mastery.</p>
+</div>
+                <h4 class="text-center artist-title-header ">
+                    Alex <br> Katz
+                </h4>
+        </div>
+        </button>
+    </div>
+    <div class="col-10   offset-md-none col-md-6 col-lg-4 text-align-center artist-column-button-centered ">
+        <div class="container-fluid artist-introduction-banner">
+            <button class="artist-title-button artist-title-button-color2">
+                <img class="portrait-images" src="assets/images/anselmkiefer/_AnselmKieferheadshot.jpg"
+                    alt="portrait image of alexkatz">
+
+                    <div class="d-none d-md-block">
+                        <p class="artist-advertising-text"> Where Art Transcends  <br> Boundaries.</p>
+                    </div>
+
+                <h4 class="text-center artist-title-header ">
+                    Anselm <br> Kiefer
+                </h4>
+        </div>
+        </button>
+    </div>
+    <div class="col-10   offset-md-none col-md-6 col-lg-4 text-align-center artist-column-button-centered ">
+        <div class="container-fluid artist-introduction-banner">
+            <button class="artist-title-button artist-title-button-color3">
+                <img class="portrait-images damien-hirst-portrait-image"
+                    src="assets/images/damienhirst/damien-hirst.jpg" alt="portrait image of alexkatz">
+
+                    
+                    <div class="d-none d-md-block">
+                        <p class="artist-advertising-text"> A Fusion of <br> Art and Imagination.</p>
+                    </div>
+                <h4 class="text-center artist-title-header ">
+                    Damien <br> Hirst
+                </h4>
+        </div>
+        </button>
+    </div>
+
+    <div class="col-10   offset-md-none col-md-6 col-lg-4 text-align-center artist-column-button-centered ">
+        <div class="container-fluid artist-introduction-banner">
+            <button class="artist-title-button artist-title-button-color4">
+                <img class="portrait-images damien-hirst-portrait-image"
+                    src="assets/images/georgebaselitz/bandwkellyportrait.jpg" alt="portrait image of alexkatz">
+
+                    
+                    <div class="d-none d-md-block">
+                        <p class="artist-advertising-text"> A Revolution <br> in Artisry.</p>
+                    </div>
+                <h4 class="text-center artist-title-header ">
+                    George  <br> Baselitz
+                </h4>
+        </div>
+        </button>
+    </div>
+
+
+    <div class="col-10   offset-md-none col-md-6 col-lg-4 text-align-center artist-column-button-centered ">
+        <div class="container-fluid artist-introduction-banner">
+            <button class="artist-title-button artist-title-button-color4">
+                <img class="portrait-images damien-hirst-portrait-image"
+                    src="assets/images/gerhardrichter/Gerhard_Richter-1.png" alt="portrait image of alexkatz">
+
+                    
+                    <div class="d-none d-md-block">
+                        <p class="artist-advertising-text"> Where Creativity  <br> Knows No Limits.</p>
+                    </div>
+                <h4 class="text-center artist-title-header ">
+                    Gerhard  <br> Richter
+                </h4>
+        </div>
+        </button>
+    </div>
+
+    <div class="col-10   offset-md-none col-md-6 col-lg-4 text-align-center artist-column-button-centered ">
+        <div class="container-fluid artist-introduction-banner">
+            <button class="artist-title-button artist-title-button-color4">
+                <img class="portrait-images damien-hirst-portrait-image"
+                    src="assets/images/jasperjohns/Jasper Johns.jpeg" alt="portrait image of alexkatz">
+
+                    
+                    <div class="d-none d-md-block">
+                        <p class="artist-advertising-text"> Where Art <br> Redefines Perception </p>
+                    </div>
+                <h4 class="text-center artist-title-header ">
+                    Jasper <br> Johns
+                </h4>
+        </div>
+        </button>
+    </div>
+
+
+    <div class="col-10   offset-md-none col-md-6 col-lg-4 text-align-center artist-column-button-centered ">
+        <div class="container-fluid artist-introduction-banner">
+            <button class="artist-title-button artist-title-button-color4">
+                <img class="portrait-images damien-hirst-portrait-image"
+                    src="assets/images/jennysaville/w=1200&h=1200&fit=fill&f=faces___images.ctfassets.net_7dc7gq8ix1ml_7fqHxiO5yL9BJmGiuinyOy_37da0848c6cc54133f245425568483a9_cover-Seville.jpg" alt="portrait image of alexkatz">
+
+                    
+                    <div class="d-none d-md-block">
+                        <p class="artist-advertising-text"> Where Beauty Resides <br> in Every Stroke  </p>
+                    </div>
+                <h4 class="text-center artist-title-header ">
+                    Jenny <br> Saville 
+                </h4>
+        </div>
+        </button>
+    </div>
+
+
+    
+    <div class="col-10   offset-md-none col-md-6 col-lg-4 text-align-center artist-column-button-centered ">
+        <div class="container-fluid artist-introduction-banner">
+            <button class="artist-title-button artist-title-button-color4">
+                <img class="portrait-images damien-hirst-portrait-image"
+                    src="assets/images/marlenedumas/marlene-dumas-artist-portrait.jpg ">
+                    
+                    <div class="d-none d-md-block">
+                        <p class="artist-advertising-text"> Where Emotion <br> Takes the Canvas  </p>
+                    </div>
+                <h4 class="text-center artist-title-header ">
+                    Marlene <br> Dumas 
+                </h4>
+        </div>
+        </button>
+    </div>
+
+</div>
 </html>
