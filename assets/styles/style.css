@@ -496,9 +496,12 @@ article {}
 
 
 
+/* Gallery Page */
 
 
+/*stying Alex Katz gallery page */
 
+.gallery-1 {align-self: center;justify-self: center;margin:30px;overflow:hidden ;max-width: 200px;max-height: 250px;}
 
 
 
