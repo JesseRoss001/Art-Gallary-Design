@@ -595,6 +595,23 @@ div a i {
 }
 
 
+@media (min-width:395px) {
+    .fa-facebook {
+        padding-left: 37.8px;
+    }
+
+
+}
+
+@media (min-width:415px) {
+    .fa-facebook {
+        padding-left: 44.6px;
+    }
+
+
+}
+
+
 @media (min-width:425px) {
     .fa-facebook {
         padding-left: 48px;
