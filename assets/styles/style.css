@@ -582,13 +582,13 @@ div a i {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-}
+
 
 
 
 @media (min-width:375px) {
     .fa-facebook {
-        padding-left: 30px;
+        padding-left: 31px;
     }
 
 
