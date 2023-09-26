@@ -513,12 +513,16 @@ margin-top: 50px;}
 
 
 
+/* styling the form */
+.contact-us {margin:10px;
+    font-style: italic;
+ letter-spacing: 2px;
+padding: 10px;}
 
 
 
 
-
-
+#contact-form {padding:20px;}
 
 
 
