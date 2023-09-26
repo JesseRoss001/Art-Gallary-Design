@@ -529,7 +529,8 @@ padding: 10px;}
     
 }
 
-.button-send-styling {width:50%;}
+.button-send-styling {width:50%; height:45px;}
+.button-send-styling:hover {background-color: #dab6b6;}
 
 
 
