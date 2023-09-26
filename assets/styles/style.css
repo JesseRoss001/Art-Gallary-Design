@@ -501,6 +501,9 @@ article {}
 
 /*stying Alex Katz gallery page */
 
+.styling-artist-title-names {margin-top: 40px;
+font-size: x-large;}
+
 .gallery-1 {max-width: 70%;
 height:auto;
 margin-top: 50px;}
