@@ -1,4 +1,4 @@
-Certainly! Including screenshots can provide a visual overview of the project. Here’s an updated draft for the README file:
+![](https://res.cloudinary.com/dwz6t9jry/image/upload/v1704476864/Screenshot_2024-01-05_130100_gf4j02.png)
 
 markdown
 # Opus Art Luxe Art Gallery Website
